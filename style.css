@@ -1,0 +1,91 @@
+body {
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  h1 {
+    line-height: 1.25;
+    margin: 1em 0 0;
+  }
+
+  p {
+    margin: .5em 0;
+  }
+
+  li {
+      cursor: pointer;
+  }
+
+  #umschalter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #umschalter li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 18px;
+    border: 3px solid black;
+  }
+
+  #grauTaste {
+    background: gray;
+  }
+
+  #weissTaste {
+    background: white;
+  }
+
+  #blauTaste {
+    background: blue;
+  }
+
+  #gelbTaste {
+    background: yellow;
+  }
+
+  section > article:first-of-type {
+      width: 100%;
+      margin-bottom: 5em;
+  }
+
+  section > article:last-of-type {
+      border: 1px solid #000;
+      width: 50em;
+      padding: 2em 0;
+  }
+
+  section > article:last-of-type > div > h1 {
+      font-size: 10em;
+      margin: 0;
+  }
+
+  section > article:last-of-type > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  section > article:last-of-type > div > div {
+      border: 1px solid #000;
+      text-align: center;
+  }
+
+  section > article:last-of-type > div > div > div:first-of-type {
+      width: 10em;
+      background: black;
+      color: white;
+  }
